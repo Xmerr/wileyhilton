@@ -1,4 +1,5 @@
-import { Themer } from './src/helpers/Themer';
+import React from 'react';
+import { Themer } from '../src/helpers/Themer';
 
 export const parameters = {
     actions: { argTypesRegex: '^on[A-Z].*' },

@@ -1,10 +1,12 @@
 import { Themer } from './helpers/Themer';
-import './App.css';
+import { Home, MainMenu } from '@pages';
+import './index.scss';
 
 function App() {
     return (
         <Themer>
-            <h1>Work In Progress</h1>
+            <MainMenu />
+            <Home id='me' />
         </Themer>
     );
 }

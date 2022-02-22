@@ -1,0 +1,14 @@
+.splash {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    & > * {
+        max-width: 40%;
+        margin: 0 32px;
+    }
+}
+
+.divider {
+    margin: 1rem 0;
+}

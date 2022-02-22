@@ -29,7 +29,8 @@ export const Typography = props => {
 
 Typography.propTypes = {
     align: PropTypes.oneOf(alignments),
-    children: PropTypes.string.isRequired,
+    children: PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)])
+        .isRequired,
     loading: PropTypes.bool,
     paragraph: PropTypes.bool,
     variant: PropTypes.oneOf(textVariants),

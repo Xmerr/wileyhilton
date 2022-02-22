@@ -1,0 +1,17 @@
+@import '@helpers/vars';
+
+.portrait {
+    border-radius: 100%;
+    border: 5px dashed $primaryColor;
+    display: inline-block;
+    height: 10vw;
+    overflow: hidden;
+    width: 10vw;
+    min-width: 100px;
+    min-height: 100px;
+
+    img {
+        width: auto;
+        height: 100%;
+    }
+}

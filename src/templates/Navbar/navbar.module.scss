@@ -1,0 +1,40 @@
+@import '@helpers/vars.scss';
+
+:export {
+    navbarHeight: $navbarHeight;
+}
+
+.active {
+    color: $primaryColor !important;
+    border-bottom: 5px solid $primaryColor;
+}
+
+.navbar {
+    background-color: gray;
+    height: $navbarHeight;
+    list-style: none;
+    margin: 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 100vw;
+
+    li {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    a {
+        display: block;
+        height: $navbarHeight;
+        line-height: $navbarHeight;
+        padding: 0 1rem;
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            @extend .active;
+        }
+    }
+}

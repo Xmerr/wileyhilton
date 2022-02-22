@@ -3,7 +3,7 @@ import { Button } from '../';
 import { colors, buttonVariants, sizes } from '@helpers/enums';
 
 export default {
-    title: 'Atoms/Buttons',
+    title: 'Atoms/Button',
     component: Button,
     args: {
         children: 'Button',
