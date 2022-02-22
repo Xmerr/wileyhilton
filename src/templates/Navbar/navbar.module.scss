@@ -10,7 +10,8 @@
 }
 
 .navbar {
-    background-color: gray;
+    background-color: $secondaryColor;
+    box-shadow: 0 0 10px 0px $shadowColor;
     height: $navbarHeight;
     list-style: none;
     margin: 0;
@@ -26,11 +27,12 @@
     }
 
     a {
+        color: white;
         display: block;
+        font-weight: bold;
         height: $navbarHeight;
         line-height: $navbarHeight;
         padding: 0 1rem;
-        color: white;
         text-decoration: none;
 
         &:hover {

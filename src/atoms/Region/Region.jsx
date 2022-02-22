@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './section.module.scss';
+import styles from './region.module.scss';
 
-export const Section = props => (
+export const Region = props => (
     <div id={props.id} className={styles.outer}>
         <div className={props.className}>{props.children}</div>
     </div>
 );
 
-Section.propTypes = {
+Region.propTypes = {
     children: PropTypes.node.isRequired,
     className: PropTypes.string,
     id: PropTypes.string,

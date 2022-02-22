@@ -1,5 +1,5 @@
 import { Themer } from './helpers/Themer';
-import { Home, MainMenu } from '@pages';
+import { About, Contact, Home, MainMenu } from '@pages';
 import './index.scss';
 
 function App() {
@@ -7,6 +7,8 @@ function App() {
         <Themer>
             <MainMenu />
             <Home id='me' />
+            <About id='about' />
+            <Contact id='contact' />
         </Themer>
     );
 }

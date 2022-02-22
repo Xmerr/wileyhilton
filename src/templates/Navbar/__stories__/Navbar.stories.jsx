@@ -43,10 +43,10 @@ export default {
 const Template = args => (
     <div className={styles.container}>
         <Navbar {...args} />
-        <div id='e1' className={styles.exampleSection}>
+        <div id='e1' className={styles.exampleRegion}>
             This is e1
         </div>
-        <div id='e2' className={styles.exampleSection}>
+        <div id='e2' className={styles.exampleRegion}>
             This is e2
         </div>
     </div>
