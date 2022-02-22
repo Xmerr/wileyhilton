@@ -7,7 +7,9 @@
         "build": "node scripts/build.js",
         "test": "node scripts/test.js",
         "storybook": "start-storybook -p 62297 -s public",
-        "build-storybook": "build-storybook -s public"
+        "build-storybook": "build-storybook -s public",
+        "serve": "serve -s ./build -p 62297",
+        "serve-storybook": "serve stoerbook-static -p 62297"
     },
     "dependencies": {
         "@babel/core": "^7.16.0",
